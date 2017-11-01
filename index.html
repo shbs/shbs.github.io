@@ -3,6 +3,18 @@
  <head>
   <title>test github site</title>
   <meta charset="utf-8">
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "93c561eb-e38b-4800-897d-1da99eade269",
+      autoRegister: false,
+      notifyButton: {
+        enable: true /* Set to false to hide */
+      }
+    }]);
+  </script>
  </head>
  <body>
  <p><img src="https://topspb.tv/uploaded/images/kartazntinba.jpg"></p>
