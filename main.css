@@ -1,0 +1,73 @@
+body {
+    background: url(/img/stadium-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+}
+.main   {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.head {
+    text-align: center;
+    flex: 1 0 auto;
+}
+.tabl {
+    display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-items: center;
+ flex: 1 0 auto;
+ margin-bottom: 10%;
+ margin-left: 15%;
+ margin-right: 15%;
+}
+.grup {
+    background-color: rgb(2, 0, 148,0.5);
+    min-width: 300px;
+    margin: 5px;
+ padding: 5px;
+ flex: 0 1 auto;
+ border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+table {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    
+}
+thead {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.right {
+    text-align: center;
+    width: 10%;
+}
+.futer {
+    background-color: rgb(2, 0, 148,0.3);
+    
+    color: white;
+    padding-left: 15%;
+    flex: 0 0 auto;
+}
+a {
+    color: gray;
+}
+img {
+    margin-top: 10px;
+}
