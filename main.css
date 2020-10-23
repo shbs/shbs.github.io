@@ -61,7 +61,7 @@ thead {
 }
 .futer {
     background-color: rgb(2, 0, 148,0.3);
-    
+    font-family: 'Roboto', sans-serif;
     color: white;
     padding-left: 15%;
     flex: 0 0 auto;
